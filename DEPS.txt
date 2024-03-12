@@ -13,3 +13,4 @@ dunst
 pipewire
 foot
 xwayland
+pactl
