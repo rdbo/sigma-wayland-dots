@@ -1,0 +1,15 @@
+river
+rivertile
+yambar
+fuzzel
+wlr-randr
+waylock
+slurp
+wl-copy
+notify-send
+grim
+wvkbd
+dunst
+pipewire
+foot
+xwayland
