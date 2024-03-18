@@ -26,5 +26,5 @@ mkdir -p "$HOME/.cache/sigma"
 
 # start window manager on tty1
 if [ "$curtty" = "/dev/tty1" ]; then
-	river
+	dbus-launch river
 fi

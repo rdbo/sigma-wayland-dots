@@ -6,11 +6,14 @@ wlr-randr
 waylock
 slurp
 wl-copy
+fnott
 notify-send
 grim
 wvkbd
-dunst
 pipewire
 foot
 xwayland
 pactl
+dbus-launch
+font-fira-mono-nerd
+swww
