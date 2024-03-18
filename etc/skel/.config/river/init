@@ -116,8 +116,7 @@ riverctl map passthrough Super F11 enter-mode normal
 pkill -9 'pipewire.*'
 
 riverctl spawn 'rivertile -view-padding 6 -outer-padding 6'
-riverctl spawn 'dbus-daemon --session'
-riverctl spawn 'dbus-launch /usr/libexec/pipewire-launcher'
+riverctl spawn '/usr/libexec/pipewire-launcher'
 riverctl spawn 'fnott'
 riverctl spawn 'yambar'
 riverctl spawn 'swww init'
