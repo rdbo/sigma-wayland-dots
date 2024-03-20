@@ -17,3 +17,4 @@ pactl
 dbus-launch
 font-fira-mono-nerd
 swww
+easyeffects

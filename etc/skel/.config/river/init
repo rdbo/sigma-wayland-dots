@@ -113,11 +113,10 @@ riverctl map normal Super F11 enter-mode passthrough
 riverctl map passthrough Super F11 enter-mode normal
 
 # Start programs
-pkill -9 'pipewire.*'
-
 riverctl spawn 'rivertile -view-padding 6 -outer-padding 6'
-riverctl spawn '/usr/libexec/pipewire-launcher'
+/usr/libexec/pipewire-launcher # Starts pipewire and waits for it to initialize
 riverctl spawn 'fnott'
 riverctl spawn 'yambar'
+riverctl spawn 'easyeffects --gapplication-service'
 riverctl spawn 'swww init'
 riverctl spawn "swww img \"$SIGMA_CONFIG_DIR/background\""
