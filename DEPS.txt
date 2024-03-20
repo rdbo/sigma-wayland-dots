@@ -16,6 +16,7 @@ xwayland
 pactl
 dbus-launch
 font-fira-mono-nerd
+font-fira-code-nerd
 swww
 easyeffects
 mako
